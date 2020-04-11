@@ -1,0 +1,6 @@
+.editorconfig
+.travis.yml
+.idea/
+test/
+!lib/
+yarn.lock

@@ -1,0 +1,61 @@
+{
+  "name": "express-cassandra-swagger",
+  "description": "JSON schema YAML generator for Express-Cassandra models",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dekelev/express-cassandra-swagger.git"
+  },
+  "keywords": [
+    "express-cassandra",
+    "swagger",
+    "json-schema",
+    "model",
+    "schema",
+    "json",
+    "yaml"
+  ],
+  "main": "lib/",
+  "files": [
+    "lib"
+  ],
+  "author": "Dekel Barzilay",
+  "license": "MIT",
+  "scripts": {
+    "publish": "git push origin --tags && npm run changelog && git push origin",
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish",
+    "lint": "semistandard --fix lib/**/*.js test/**/*.js --config",
+    "mocha": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "npm run lint && npm run mocha"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "es6-promisify": "^6.1.0",
+    "js-yaml": "^3.13.1",
+    "lodash": "^4.17.15",
+    "validation-utils": "^4.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1",
+    "semistandard": "^14.2.0",
+    "sinon": "^9.0.2"
+  },
+  "nyc": {
+    "exclude": [
+      "test/**"
+    ]
+  },
+  "semistandard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
