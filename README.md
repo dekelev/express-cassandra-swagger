@@ -1,4 +1,4 @@
-# express-cassandra-swagger
+# express-cassandra-swagger 
   
   [![Build Status](https://travis-ci.org/dekelev/express-cassandra-swagger.svg?branch=master)](https://travis-ci.org/dekelev/express-cassandra-swagger)
   [![Coverage Status](https://coveralls.io/repos/github/dekelev/express-cassandra-swagger/badge.svg?branch=master)](https://coveralls.io/github/dekelev/express-cassandra-swagger?branch=master)
