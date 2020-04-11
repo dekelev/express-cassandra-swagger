@@ -2,6 +2,8 @@
   "name": "express-cassandra-swagger",
   "description": "JSON schema YAML generator for Express-Cassandra models",
   "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/dekelev/express-cassandra-swagger",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dekelev/express-cassandra-swagger.git"
@@ -19,8 +21,20 @@
   "files": [
     "lib"
   ],
-  "author": "Dekel Barzilay",
-  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": {
+    "name": "Dekel Barzilay",
+    "email": "dekelev@gmail.com"
+  },
+  "contributors": [],
+  "bugs": {
+    "url": "https://github.com/dekelev/express-cassandra-swagger/issues"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
   "scripts": {
     "publish": "git push origin --tags && npm run changelog && git push origin",
     "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
@@ -32,9 +46,6 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "npm run lint && npm run mocha"
   },
-  "engines": {
-    "node": ">=8"
-  },
   "dependencies": {
     "es6-promisify": "^6.1.0",
     "js-yaml": "^3.13.1",
@@ -43,6 +54,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "coveralls": "^3.0.11",
     "mocha": "^7.1.1",
     "nyc": "^15.0.1",
     "semistandard": "^14.2.0",
