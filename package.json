@@ -33,7 +33,7 @@
     "url": "https://github.com/dekelev/express-cassandra-swagger/issues"
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 10"
   },
   "scripts": {
     "publish": "git push origin --tags && npm run changelog && git push origin",
