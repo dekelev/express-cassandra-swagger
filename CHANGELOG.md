@@ -1,6 +1,12 @@
 # Changelog
 
-[Full Changelog](https://github.com/dekelev/express-cassandra-swagger/compare/v1.1.0...HEAD)
+## [v1.1.1](https://github.com/dekelev/express-cassandra-swagger/tree/v1.1.1) (2023-03-04)
+
+[Full Changelog](https://github.com/dekelev/express-cassandra-swagger/compare/v1.1.0...v1.1.1)
+
+## [v1.1.0](https://github.com/dekelev/express-cassandra-swagger/tree/v1.1.0) (2021-05-15)
+
+[Full Changelog](https://github.com/dekelev/express-cassandra-swagger/compare/v1.0.0...v1.1.0)
 
 **Merged pull requests:**
 
@@ -8,10 +14,6 @@
 - Bump lodash from 4.17.19 to 4.17.21 [\#3](https://github.com/dekelev/express-cassandra-swagger/pull/3) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump y18n from 4.0.0 to 4.0.1 [\#2](https://github.com/dekelev/express-cassandra-swagger/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 - Bump lodash from 4.17.15 to 4.17.19 [\#1](https://github.com/dekelev/express-cassandra-swagger/pull/1) ([dependabot[bot]](https://github.com/apps/dependabot))
-
-## [v1.1.0](https://github.com/dekelev/express-cassandra-swagger/tree/v1.1.0) (2021-05-15)
-
-[Full Changelog](https://github.com/dekelev/express-cassandra-swagger/compare/v1.0.0...v1.1.0)
 
 ## [v1.0.0](https://github.com/dekelev/express-cassandra-swagger/tree/v1.0.0) (2020-04-11)
 
